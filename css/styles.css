@@ -1,0 +1,37 @@
+.benefits-title {
+    display: none;
+
+}
+.order_service {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+
+}
+.button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+
+}
+.logo-web {
+    color: #4D5AE5;
+}
+.logo-studio {
+    color: #2E2F42;
+}
+.logo{
+    text-decoration: none;
+    
+}
+nav a, footer a {
+    text-decoration: none;
+   
+}
+address ul li a {
+    text-decoration: none;
+}
+nav ul, address ul, #benefits ul, #team ul, #portfolio ul{
+    list-style: none;
+}
+nav a,  a {
+    color: #2E2F42;
+}
