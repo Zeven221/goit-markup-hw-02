@@ -36,7 +36,7 @@ body {
     
 }
 
-.order_button {
+.order-button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
@@ -47,10 +47,10 @@ body {
 }
 
 
-.order_service {
+.order-service {
     background-color: #2E2F42;
 }
-.order_service h1 {
+.order-service h1 {
     color: #FFFFFF;
     font-size: 56px;
     font-weight: 700;
@@ -66,7 +66,7 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.166666666666667;
+    line-height: 1.16;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.03em;
 }
@@ -80,7 +80,7 @@ footer p {
     background-color: #F4F4FD;
     text-align: center;
 }
-.mark_guerrero_li, .tom_ford_li, .camila_garcia_li, .daniel_wilson_li {
+.mark-guerrero-li, .tom-ford-li, .camila-garcia-li, .daniel-wilson-li {
     background-color: #FFFFFF;
 
 }
@@ -94,10 +94,12 @@ footer p {
 }
 .logo-web{
     color: #4D5AE5;
+    line-height: 1.16;
 
 }
 .logo-studio{
     color: #2E2F42;
+    line-height: 1.16;
 
 }
 .footer-logo-studio{
@@ -118,12 +120,12 @@ footer p {
 .phone, .email {
     color: #434455;
 }
-.order_button:hover
+.order-button:hover
 {
     background-color: #404BBF;
 
 }
-.order_button:focus
+.order-button:focus
 {
     background-color: #404BBF;
 
