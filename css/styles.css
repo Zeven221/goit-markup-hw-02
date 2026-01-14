@@ -103,10 +103,10 @@ footer p {
 .footer-logo-studio{
     color: #F4F4FD;
 }
-nav ul li a:hover,address ul li a:hover{
+.contacts-link:hover,.portfolio-link:hover,.studio-link:hover,.email:hover, .phone:hover {
     color: #404BBF;
 }
-nav ul li a:focus,address ul li a:focus{
+.contacts-link:focus,.portfolio-link:focus,.studio-link:focus,.email:focus, .phone:focus {
     color: #404BBF;
 }
 nav a{
@@ -151,4 +151,11 @@ nav ul li a, address ul li a {
     
 #team ul li p {
     color: unset;
+}
+.team-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.111111111111111;
+    letter-spacing: 0.02em;
 }
