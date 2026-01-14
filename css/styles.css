@@ -74,17 +74,17 @@ footer {
     background-color: #2E2F42;
 }
 footer p {
-    color: #FFFFFF;
+    color: #f4f4fd;
 }
-#team {
+.team {
     background-color: #F4F4FD;
     text-align: center;
 }
-#team ul li {
+.mark_guerrero_li, .tom_ford_li, .camila_garcia_li, .daniel_wilson_li {
     background-color: #FFFFFF;
 
 }
-#portfolio h2 {
+.portfolio h2 {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -109,7 +109,7 @@ footer p {
 .contacts-link:focus,.portfolio-link:focus,.studio-link:focus,.email:focus, .phone:focus {
     color: #404BBF;
 }
-nav a{
+.studio-link, .portfolio-link ,.contacts-link{
     color: #2E2F42;
 }
 .contacts-link:active {
@@ -128,34 +128,37 @@ nav a{
     background-color: #404BBF;
 
 }
-#benefits h3 {
+.benefits h3 {
     font-weight: 500;
     font-size: 20px;
+    letter-spacing: 0.02em
 }
-#benefits p {
+.benefits p {
     font-size: 16px;
     
 }
 
 
-address ul li a {
+.email , .phone {
     font-weight: 400;
     font-size: 16px;
     font-style: normal
     
 }
-nav ul li a, address ul li a {
+.contacts-link, .portfolio-link, .studio-link, .email, .phone {
     line-height: 1.5;
     letter-spacing: 0.02em
 }
-    
-#team ul li p {
-    color: unset;
-}
+
 .team-title {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.111111111111111;
     letter-spacing: 0.02em;
+}
+.portfolio h3{
+
+    letter-spacing: 0.02em
+
 }
