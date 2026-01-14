@@ -18,21 +18,32 @@ body {
 
     font-weight: 500;
     font-size: 20px;
-    line-height: 0.8333333333333333;
+    line-height: 1.2;
 }
 * p {
-    line-height: 0.6666666666666667;
+    line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;
+
 }
 
 .benefits-title {
-    display: none;
-
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.111111111111111;
+    text-align: center;
+    
 }
 
 .order_button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
 }
 
 
@@ -44,7 +55,8 @@ body {
     font-size: 56px;
     font-weight: 700;
     text-align: center;
-    line-height: 0.9333333333333333;
+    line-height: 1.071428571428571;
+    letter-spacing: 0.02em;
 
 }
 
@@ -54,16 +66,15 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
-    line-height: 0.8571428571428571;
+    line-height: 1.166666666666667;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
 }
 footer {
     background-color: #2E2F42;
 }
 footer p {
     color: #FFFFFF;
-}
-.team-title {
-    display: none;
 }
 #team {
     background-color: #F4F4FD;
@@ -77,20 +88,25 @@ footer p {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
-    line-height: 0.9;
+    line-height: 1.111111111111111;
+    letter-spacing: 0.02em;
+
 }
 .logo-web{
     color: #4D5AE5;
 
 }
-.logo.studio{
+.logo-studio{
     color: #2E2F42;
 
 }
 .footer-logo-studio{
     color: #F4F4FD;
 }
-nav ul li a:hover,address ul li a:hover {
+nav ul li a:hover,address ul li a:hover{
+    color: #404BBF;
+}
+nav ul li a:focus,address ul li a:focus{
     color: #404BBF;
 }
 nav a{
@@ -103,6 +119,11 @@ nav a{
     color: #434455;
 }
 .order_button:hover
+{
+    background-color: #404BBF;
+
+}
+.order_button:focus
 {
     background-color: #404BBF;
 
@@ -120,5 +141,14 @@ nav a{
 address ul li a {
     font-weight: 400;
     font-size: 16px;
+    font-style: normal
     
+}
+nav ul li a, address ul li a {
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
+    
+#team ul li p {
+    color: unset;
 }
