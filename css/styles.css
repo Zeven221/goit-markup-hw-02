@@ -1,3 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #2E2F42;
+}
+* a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.6666666666666667;
+   
+}
+* a,ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+* h3{
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.8333333333333333;
+}
+* p {
+    line-height: 0.6666666666666667;
+}
+
+.benefits-title {
+    display: none;
+
+}
 
 .order_button {
     background-color: #4D5AE5;
@@ -5,27 +35,26 @@
     cursor: pointer;
 }
 
-body {
-    background-color: #FFFFFF;
-}
-* a,ul{
-    text-decoration: none;
-    list-style: none;
-}
-* p{
-    color: #434455;
 
-}
-h1, h2, h3, h4, h5, h6 {
-    color: #2E2F42;
-}
-.order_service, h1 {
-    color: #FFFFFF;
+.order_service {
     background-color: #2E2F42;
 }
+.order_service h1 {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 0.9333333333333333;
+
+}
+
+
 .logo
 {
     text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0.8571428571428571;
 }
 footer {
     background-color: #2E2F42;
@@ -46,6 +75,9 @@ footer p {
 }
 #portfolio h2 {
     text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.9;
 }
 .logo-web{
     color: #4D5AE5;
@@ -74,4 +106,19 @@ nav a{
 {
     background-color: #404BBF;
 
+}
+#benefits h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+#benefits p {
+    font-size: 16px;
+    
+}
+
+
+address ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    
 }
